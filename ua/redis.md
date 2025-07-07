@@ -22,9 +22,9 @@ You can see the *full text* of **the license at**:
 
 Особлива подяка [Перрі Нілу](https://twitter.com/perryneal) за те, що поділився зі мною своїми очима, розумом і пристрастю. Ви надали мені неоціненну допомогу. Дякую.
 
-## Latest Version
+## Актуальна версія
 
-The latest source of this book is available at:
+Актуальна версія цієї книги (мовою оригіналу) доступна за адресою:
 <http://github.com/karlseguin/the-little-redis-book>
 
 # Вступ
