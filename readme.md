@@ -1,5 +1,8 @@
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
+## From Translators ##
+This repository is fork of [https://github.com/karlseguin/the-little-redis-book](https://github.com/karlseguin/the-little-redis-book)
+
 ## Про книгу ##
 
 Маленька крижка про Redis (ориг. «The Little Redis Book») — це безкоштовна книга, що знайомить читачів із Redis. 
