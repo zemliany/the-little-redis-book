@@ -1,76 +1,39 @@
-## About ##
-The Little Redis Book is a free book introducing Redis.
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
-The book was written by [Karl Seguin](http://openmymind.net), with [Perry Neal](http://twitter.com/perryneal)'s assistance.
+## From Translators ##
+This repository is fork of [https://github.com/karlseguin/the-little-redis-book](https://github.com/karlseguin/the-little-redis-book)
 
-If you liked this book, maybe you'll also like [The Little MongoDB Book](http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/).
+## Про книгу ##
 
-## License ##
-The book is freely distributed under the  [Attribution-NonCommercial 3.0 Unported license](<http://creativecommons.org/licenses/by-nc/3.0/legalcode>).
+Маленька крижка про Redis (ориг. «The Little Redis Book») — це безкоштовна книга, що знайомить читачів із Redis. 
 
-## Translations ##
+Автор книги [Карла Сеґуін](http://openmymind.net), за сприяння [Пeрри Неала](http://twitter.com/perryneal).
 
-* [Russian](https://github.com/kondratovich/the-little-redis-book)
-* [Italian](https://github.com/sandroconforto/the-little-redis-book) - [pdf](https://github.com/sandroconforto/the-little-redis-book/raw/master/book/redisIt.pdf)
-* [Chinese](https://github.com/JasonLai256/the-little-redis-book)
-* [Chinese 2](https://github.com/geminiyellow/the-little-redis-book/)
-* [Japanese](https://github.com/craftgear/the-little-redis-book/)
-* [Spanish](https://github.com/raulexposito/the-little-redis-book)
-* [Burmese](https://github.com/nainglinaung/the-little-redis-book)
+Якщо вам сподобалася ця книга, можливо, вам також сподобається [The Little MongoDB Book](http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/).
 
-## Formats ##
-The book is written in [Markdown](http://daringfireball.net/projects/markdown/) and converted to PDF using [Pandoc](http://johnmacfarlane.net/pandoc/).
+## Ліцензія ##
+Книга розповсюджується вільно за ліцензією  [Attribution-NonCommercial 3.0 Unported license](<http://creativecommons.org/licenses/by-nc/3.0/legalcode>).
 
-The TeX template makes use of Lena Herrmann's JavaScript highlighter.
+## Переклад ##
 
-Kindle and ePub format provided using [Pandoc](http://johnmacfarlane.net/pandoc/).
+Цей переклад виконано виклочно з освітньою метою та загальною популяризацією нереляційних баз даних (nRDMBS / noSQL), зокрема Redis. Загалом ця невелика книга може бути непоганим навчальним посібником для початку ознайомлення з підходами до нереляційних систем керування базами даних на прикладі Redis.
 
-## Generating books ##
-Packages listed below are for Ubuntu. If you use another OS or distribution names would be similar.
+Перeклад був виконаний студентом університету [SET University](https://www.setuniversity.edu.ua/en/)
+
+**Дисклеймер**: люди, що виконували переклад і редакційні правки **НЕ Є** професійними перекладачами та редакторами. Переклад і редагування було здійснено на власний розсуд, із урахуванням української стилістики та граматики разом із збереженням оригінальної логіки викладання матеріалу та професійної думки автора, але це не виключає наявність одруківок, незначних помилок або стилістичних недоробок. Ми просимо із повагою віднестись до чужої праці. Якщо ви помітили будь-яку помилку, одруківку, або маєте ідею як стилістично поліпшити викладення даного матеріалу, ми будемо щиро раді побачити ваш PR до цього [репозиторію](https://github.com/zemliany/the-little-redis-book) із пропозиціями або виправленнями. Дякуємо! 
+
+## Створення книги ##
+Cтворення книги в PDF форматі відбувається на базі Docker
 
 ### PDF
 
-#### Dependencies
+#### Build docker image with pandoc
 
-Packages:
-
-* `pandoc`
-* `texlive-xetex`
-* `texlive-latex-extra`
-* `texlive-latex-recommended`
-
-You should have [some fonts](https://github.com/karlseguin/the-little-redis-book/blob/master/common/pdf-template.tex#L11) installed too.
-Or you could change them to other ones if you want. Consider that fonts could cause [building troubles](https://github.com/karlseguin/the-little-redis-book/issues/26).
+Run `make build-image`.
 
 #### Building
 
-Run `make en/redis.pdf`.
-
-### ePub
-
-#### Dependencies
-
-Packages:
-
-* `pandoc`
-
-#### Building
-
-Run `make en/redis.epub`.
-
-### Mobi
-
-#### Dependencies
-
-Packages:
-
-* `pandoc`
-
-You should have [KindleGen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211) installed too.
-
-#### Building
-
-Run `make en/redis.mobi`.
+Run `make ua-pdf`.
 
 ## Title Image ##
-A PSD of the title image is included. The font used is [Comfortaa](http://www.dafont.com/comfortaa.font).
+PSD-файл зображення заголовка включено. Використано шрифт [Comfortaa](http://www.dafont.com/comfortaa.font).
