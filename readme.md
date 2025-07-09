@@ -5,7 +5,7 @@ This repository is fork of [https://github.com/karlseguin/the-little-redis-book]
 
 ## Про книгу ##
 
-Маленька крижка про Redis (ориг. «The Little Redis Book») — це безкоштовна книга, що знайомить читачів із Redis. 
+Маленька книжка про Redis (ориг. «The Little Redis Book») — це безкоштовна книга, що знайомить читачів із Redis. 
 
 Автори книги [Карл Сеґуін](http://openmymind.net), за сприяння [Пeрри Неала](http://twitter.com/perryneal).
 
